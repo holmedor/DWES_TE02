@@ -14,7 +14,7 @@ require_once 'includes/header.php';     //cabecera de todas las páginas de la T
 session_start();
 $_SESSION['biblioteca']=array();
 //    array_push($_SESSION['biblioteca'],"LIBRO 1","LIBRO 2","LIBRO 3");
-$file=$_SERVER['DOCUMENT_ROOT']."/DWES02TEjson/files/biblioteca.json";
+$file=$_SERVER['DOCUMENT_ROOT']."/DWES_TE02/files/biblioteca.json";
 $size=filesize($file);
 //  echo "Tamaño del fichero: ".$size."<br>";
 $fp = fopen($file, "r");
